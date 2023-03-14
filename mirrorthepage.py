@@ -1,10 +1,11 @@
+'''
 import requests
 from bs4 import BeautifulSoup
 import os
 from urllib.parse import urlparse, urljoin
 
 # specify the URL of the website to scrape
-url = "https://example.com"
+url = "https://www.www.classcentral.com.com"
 
 # make a GET request to the website
 response = requests.get(url)
@@ -71,6 +72,7 @@ with open(main_html_file_path, 'w') as f:
     f.write(str(soup))
 
 ''''
+
 import requests
 from bs4 import BeautifulSoup
 import os
